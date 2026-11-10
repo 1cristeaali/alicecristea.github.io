@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alice Cristea | Mechanical Engineering</title>
+  <meta name="description" content="Portfolio of Alice Cristea, mechanical engineering student at York University.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+  <nav class="nav">
+    <a href="#top" class="logo">AC<span>/</span></a>
+    <ul>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="top">
+    <p class="tag">// SHEET 01 — INTRODUCTION</p>
+    <h1>Alice<br>Cristea<span class="dot">.</span></h1>
+    <p class="lead">
+      Mechanical engineering student at York University.
+      I design, scan, weld, and break things (on purpose) to see how they hold up.
+    </p>
+    <div class="hero-links">
+      <a class="btn primary" href="#projects">See my work</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+    <div class="scroll-hint">scroll ↓</div>
+  </header>
+
+  <main>
+
+    <section id="projects" class="reveal">
+      <p class="tag">// SHEET 02 — PROJECTS</p>
+      <h2>Selected work</h2>
+
+      <div class="grid">
+
+        <article class="card">
+          <div class="ph" data-label="Add photo or render">
+            <!-- Replace the line above with: <img src="images/baja.jpg" alt="Baja SAE suspension"> -->
+          </div>
+          <div class="card-body">
+            <span class="pill">Baja SAE</span>
+            <h3>Suspension &amp; Structural Components</h3>
+            <p>Designed suspension and structural parts in SolidWorks and AutoCAD, then helped fabricate them with steel welding and water jet cutting.</p>
+            <ul class="stack"><li>SolidWorks</li><li>AutoCAD</li><li>Welding</li><li>Water jet</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="ph" data-label="Add photo or test result">
+            <!-- <img src="images/uhpc.jpg" alt="UHPC specimen testing"> -->
+          </div>
+          <div class="card-body">
+            <span class="pill">GNCTR Design Team</span>
+            <h3>Ultra-High Performance Concrete</h3>
+            <p>Mixing and strength-testing UHPC for York's engineering design team.</p>
+            <ul class="stack"><li>Materials</li><li>Strength testing</li><li>Lab work</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="ph" data-label="Add LiDAR scan screenshot">
+            <!-- <img src="images/lidar.jpg" alt="LiDAR scan"> -->
+          </div>
+          <div class="card-body">
+            <span class="pill">Research</span>
+            <h3>LiDAR Scanning</h3>
+            <p>Research assistant in Dr. John Gales' fire protection and civil engineering lab, working on LiDAR scanning.</p>
+            <ul class="stack"><li>LiDAR</li><li>Fire protection</li><li>Research</li></ul>
+          </div>
+        </article>
+
+      </div>
+      <p class="note">Tip: add more cards by copying one &lt;article&gt; block.</p>
+    </section>
+
+    <section id="about" class="reveal">
+      <p class="tag">// SHEET 03 — ABOUT</p>
+      <h2>About me</h2>
+      <div class="about">
+        <div class="ph portrait" data-label="Your photo">
+          <!-- <img src="images/me.jpg" alt="Alice Cristea"> -->
+        </div>
+        <div>
+          <p>
+            I'm a mechanical engineering student at York University who likes work that
+            ends with something real: a part that fits, a mix that cures, a scan that matches the building.
+          </p>
+          <p>
+            Outside of coursework I'm on York's Baja SAE team, the GNCTR engineering design team,
+            and I do research in a fire protection lab. Write two or three sentences here about what
+            you're aiming for next: co-op, internships, or the kind of problems you want to work on.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="reveal">
+      <p class="tag">// SHEET 04 — SKILLS</p>
+      <h2>Toolbox</h2>
+      <div class="skills">
+        <div>
+          <h3>CAD &amp; Design</h3>
+          <ul><li>SolidWorks</li><li>AutoCAD</li></ul>
+        </div>
+        <div>
+          <h3>Fabrication</h3>
+          <ul><li>Steel welding</li><li>Water jet cutting</li></ul>
+        </div>
+        <div>
+          <h3>Lab &amp; Research</h3>
+          <ul><li>LiDAR scanning</li><li>UHPC mixing</li><li>Strength testing</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="reveal">
+      <p class="tag">// SHEET 05 — CONTACT</p>
+      <h2>Let's talk</h2>
+      <p class="lead small">Open to internships, research opportunities, and design team collaborations.</p>
+      <div class="hero-links">
+        <a class="btn primary" href="mailto:cristea@my.yorku.ca">Email me</a>
+        <a class="btn" href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Alice Cristea</span>
+    <span class="mono">DRAWN BY: A.C. &nbsp;|&nbsp; SCALE: 1:1</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
