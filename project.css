@@ -58,6 +58,14 @@
   padding: 2rem 8vw 4rem;
 }
 
+/* ---------- Takeaways ---------- */
+.takeaways { display: grid; gap: 1.5rem; }
+.takeaway {
+  border-left: 2px solid var(--accent);
+  padding-left: 1.2rem;
+}
+.takeaway h3 { margin: 0 0 0.4rem; }
+.takeaway p { margin-bottom: 0; }
 @media (max-width: 700px) {
   .proj-hero { padding: 7.5rem 6vw 1.5rem; }
   .proj section { padding: 2rem 6vw; }
